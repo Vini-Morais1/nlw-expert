@@ -24,7 +24,7 @@ const perguntas = [
         "Evair",
         "Heitor Marcelino Domingues",
       ],
-      correta: 0
+      correta: 2
     },
     {
       pergunta: "Qual é o apelido do Palmeiras?",
