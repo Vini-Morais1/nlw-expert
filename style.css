@@ -107,7 +107,7 @@ input {
 }
 
 input:checked {
-  border: 1px solid #248269;
+  border: 1px solid #f3f4f6;
 }
 
 input:checked:before {
@@ -115,10 +115,60 @@ input:checked:before {
   width: 10px;
   height: 10px;
 
-  background-color: #248269;
+  background-color: #f3f4f6;
   border-radius: 50%;
 
 }
+
+.correta input:checked {
+  border: 1px solid #248269; /* Altera para verde quando a resposta está correta */
+}
+
+.incorreta input:checked {
+  border: 1px solid #C41A39; /* Altera para vermelho quando a resposta está incorreta */
+}
+
+.correta input:checked:before {
+  background-color: #248269; 
+}
+
+.incorreta input:checked:before {
+  background-color: #C41A39; 
+}
+
+#enviar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#botao {
+  text-align: center;
+  background: #22c55e;
+  color: black;
+  border: hidden;
+
+  bottom: 0;
+  left: 0;
+  
+  width: 30%;
+  margin-top: 24px;
+  padding: 12px;
+}
+
+#botao:target {
+  border: 20px solid #f3f4f6;
+}
+
+.correta span {
+  color: #248269;
+}
+
+.incorreta span {
+  color: #C41A39;
+}
+
 
 #acertos {
   text-align: center;
@@ -130,4 +180,8 @@ input:checked:before {
 
   width: 100%;
   padding: 12px;
+}
+
+#acertos.show {
+  display: block;
 }
