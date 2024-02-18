@@ -72,14 +72,14 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: "Qual jogador é conhecido como 'Marcador Imortal'?",
+    pergunta: "Quem foi o técnico que levou o Palmeiras à conquista da Copa Libertadores de 1999?",
     resposta: [
-      "Oberdan Cattani",
-      "Ademir da Guia",
-      "Dudu",
+      "Vanderlei Luxemburgo",
+      "Felipão",
+      "Luiz Felipe Scolari",
     ],
-    correta: 0
-  },
+    correta: 2
+},
   {
     pergunta: "Qual jogador é conhecido como 'Divino'?",
     resposta: [
